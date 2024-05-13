@@ -1,0 +1,30 @@
+c:\Users\deeks\AppData\Local\Programs\Python\Python310\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+c:\Users\deeks\AppData\Local\Programs\Python\Python310\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+device: cuda:0
+Let's use 1 GPUs!
+test.shape: torch.Size([2, 1, 240, 424])
+Initializing dataset
+Depth mean: 3.438056670303481
+Depth std: 10.458746256918245
+Total loaded 16558 images
+Loaded 13246 train images
+Loaded 3312 valid images
+Epoch [1/50], Loss:  0.008809069450494748
+Learning Rate for this epoch: 0.0001
+Updating best validation loss: 0.00822
+Epoch [1/50], Loss:  0.0078057362470249445
+Learning Rate for this epoch: 0.0001
+Updating best validation loss: 0.00709
+Updating best validation loss: 0.00691
+Updating best validation loss: 0.00652
+Updating best validation loss: 0.00596
+Updating best validation loss: 0.00561
+Epoch [11/50], Loss:  0.005862836748224363
+Learning Rate for this epoch: 0.0001
+Updating best validation loss: 0.00535
+Updating best validation loss: 0.00525

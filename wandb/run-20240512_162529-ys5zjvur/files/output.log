@@ -1,0 +1,76 @@
+device: cuda:0
+Let's use 1 GPUs!
+c:\Users\deeks\AppData\Local\Programs\Python\Python310\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+c:\Users\deeks\AppData\Local\Programs\Python\Python310\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+test.shape: torch.Size([2, 1, 240, 424])
+Initializing dataset
+Depth mean: 3.438056670303481
+Depth std: 10.458746256918245
+Total loaded 16558 images
+Loaded 13246 train images
+Loaded 3312 valid images
+Epoch 1
+Epoch [1/50], Loss:  0.008825184786939715
+Learning Rate for this epoch: 0.0001
+Updating best validation loss: 0.00848
+Epoch 2
+Updating best validation loss: 0.00708
+Epoch 3
+Epoch 4
+Updating best validation loss: 0.00635
+Epoch 5
+Updating best validation loss: 0.00616
+Epoch 6
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Updating best validation loss: 0.00616
+Epoch 7
+Epoch 8
+Updating best validation loss: 0.00591
+Epoch 9
+Epoch 10
+Updating best validation loss: 0.00573
+Epoch 11
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Epoch [11/50], Loss:  0.005916789482271182
+Learning Rate for this epoch: 0.0001
+Epoch 12
+Epoch 13
+Updating best validation loss: 0.00555
+Epoch 14
+Updating best validation loss: 0.00543
+Epoch 15
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Epoch 16
+Updating best validation loss: 0.00529
+Epoch 17
+Epoch 18
+Updating best validation loss: 0.00524
+Epoch 19
+Updating best validation loss: 0.00517
+Epoch 20
+Updating best validation loss: 0.00501
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Epoch 21
+Epoch [21/50], Loss:  0.005161476152378769
+Learning Rate for this epoch: 0.0001
+Epoch 22
+Epoch 23
+Epoch 24
+Epoch 25
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Epoch 26
+Epoch 27
+Updating best validation loss: 0.00496
+Epoch 28
+Updating best validation loss: 0.00490
+Epoch 29
+Updating best validation loss: 0.00470
+Epoch 30
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+Epoch 31
+Epoch [31/50], Loss:  0.004599399771738195
+Learning Rate for this epoch: 0.0001
+Epoch 32
+Updating best validation loss: 0.00464
