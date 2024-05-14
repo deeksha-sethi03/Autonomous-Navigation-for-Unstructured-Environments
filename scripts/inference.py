@@ -89,4 +89,14 @@ class Inference:
         output = output.squeeze().cpu().numpy()
         np.save(self.output_path, output)
 
+
+if __name__ == '__main__':
+    model_path = r"C:\Users\deeks\Documents\Autonomous-Navigation-for-Unstructured-Environments\models\resnet_depth_unet.py"
+    rgb_image_path = sys.argv[2]
+    depth_image_path = sys.argv[3]
+    output_path = sys.argv[4]
+
+    inference = Inference(model_path, rgb_image_path, depth_image_path, output_path)
+    inference.run()
+
     
